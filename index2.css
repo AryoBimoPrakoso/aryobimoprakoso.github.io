@@ -1,0 +1,55 @@
+<style>
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+        }
+        
+        
+
+        .page-title{
+            text-align: center;
+            color: white;
+        }
+        
+        .subpage{
+            text-align: center;
+            color: white;
+            font-size: medium;
+        }
+
+        .endpage{
+            text-align: center;
+            color: white;
+            font-size: medium;
+        }
+        
+        .link-box {
+            width: 500px;
+            height: 90px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight:bold;
+            
+        }
+
+        .link-box:hover {
+            background-color:
+        }
+
+        .foto {
+            width: 50px;
+            height: 50px;
+            margin-left: 200px;
+
+        }
