@@ -1,72 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-.profil {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: 2px solid wheat;
+
+
+body{
+    background-image: url(image/back.jpeg) ;
+    background-size: cover;
+    background-position: center;
 }
 
-body {
-    background: linear-gradient(#000000 50%,#3D0000 ,#950101 ,#FF0000 );
-
-}
-
-.page-title{
-    text-align: center;
-    color: white;
-    font-family: 'Inter', sans-serif;
-}
-        
-.link-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    
-}
-    
-.subpage{
-    text-align: center;
-    color: white;
-    font-size: medium;
-    font-family: 'Inter', sans-serif;
-}
-
-        
-        
+/* Gaya dasar untuk link-box */
 .link-box {
-            width: 500px;
-            height: 90px;
-            background-color: black;
-            border: 2px solid white;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-            font-weight:bold;
-            font-family: 'Inter', sans-serif;
-            
-        }
-
-        .link-box:hover {
-            background-color: white;
-            color: black;
-        }
-
-        
-
-.endpage{
+    display: block;
     text-align: center;
+    padding: 10px 20px;
+    background-color: none;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    color: white; /* Warna teks */
+    font-family: "Inter", sans-serif;
+    
+}
+
+/* Gaya saat tautan diklik */
+.link-box:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* Gaya untuk judul halaman */
+.page-title {
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 100px;
+}
+
+/* Gaya untuk subjudul halaman */
+.subpage {
     color: white;
     font-size: medium;
+    text-align: center;
     font-family: 'Inter', sans-serif;
 }
- 
+
+/* Gaya untuk footer */
+.endpage {
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+    
