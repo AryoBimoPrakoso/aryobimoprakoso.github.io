@@ -1,55 +1,72 @@
-<style>
-        .link-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            
-        }
-        
-        
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-        .page-title{
-            text-align: center;
-            color: white;
-        }
-        
-        .subpage{
-            text-align: center;
-            color: white;
-            font-size: medium;
-        }
+.profil {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid wheat;
+}
 
-        .endpage{
-            text-align: center;
-            color: white;
-            font-size: medium;
-        }
+body {
+    background: linear-gradient(#000000 50%,#3D0000 ,#950101 ,#FF0000 );
+
+}
+
+.page-title{
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
         
-        .link-box {
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+    
+.subpage{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+}
+
+        
+        
+.link-box {
             width: 500px;
             height: 90px;
-            background-color: white;
+            background-color: black;
+            border: 2px solid white;
             border-radius: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
             text-decoration: none;
-            color: black;
+            color: white;
             font-size: 20px;
             font-weight:bold;
+            font-family: 'Inter', sans-serif;
             
         }
 
         .link-box:hover {
-            background-color:
+            background-color: white;
+            color: black;
         }
 
-        .foto {
-            width: 50px;
-            height: 50px;
-            margin-left: 200px;
+        
 
-        }
+.endpage{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+}
+ 
