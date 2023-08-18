@@ -3,9 +3,9 @@
 
 
 body{
-    background-image: url(image/back.jpeg) ;
-    background-size: cover;
+    background-image: url(image/back.jpeg);
     background-position: center;
+    
 }
 
 /* Gaya dasar untuk link-box */
@@ -16,27 +16,35 @@ body{
     background-color: none;
     border: 3px solid white;
     border-radius: 5px;
-    margin: 10px;
+    margin: 30px;
     text-decoration: none; /* Menghapus garis bawah pada tautan */
     color: white; /* Warna teks */
     font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow:  10px 10px black;
+
     
 }
+
+
 
 /* Gaya saat tautan diklik */
 .link-box:hover {
     background-color: white;
     color: black;
+    
+
 }
-
-
 
 /* Gaya untuk judul halaman */
 .page-title {
     color: white;
+    font-weight: bold;
     text-align: center;
     font-family: 'Inter', sans-serif;
     margin-top: 100px;
+
 }
 
 /* Gaya untuk subjudul halaman */
