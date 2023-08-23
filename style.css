@@ -7,7 +7,7 @@
 body{
     background: linear-gradient(45deg,#1f1a20,#523882,pink);
     background-size: 400% 400%;
-    animation: color 5s infinite;
+    animation: color 7s infinite;
 }
 
 @keyframes color{
@@ -31,11 +31,21 @@ body{
     margin-top: 20px;
 }
 
+img:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 6px 6px blueviolet;
+}
+
 
 img{
     width: 200px;
     height: 200px;
     padding: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 6px 6px black;
+    
 }
 
 .linkbox{
@@ -48,7 +58,7 @@ img{
     text-decoration: none;
     color: white;
     background-color: none;
-    box-shadow: 3px 4px white;
+    box-shadow: 6px 6px black;
     border-radius: 10px;
    
 }
@@ -66,7 +76,7 @@ img{
 .linkbox:hover{
     color: black;
     background-color: white;
-    box-shadow: 5px 4px black;
+    box-shadow: 5px 4px blueviolet;
 }
 
 .linkbox:active{
