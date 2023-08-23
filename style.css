@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 *{
     font-family: "poppins", sans-serif;
 
@@ -6,20 +7,8 @@
 
 body{
     background: linear-gradient(45deg,#1f1a20,#523882,pink);
-    background-size: 400% 400%;
-    animation: color 7s infinite;
-}
-
-@keyframes color{
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
+    background-size: 100% 100vh;
+    
 }
 
 
@@ -29,23 +18,38 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    
 }
 
-img:hover{
-    background-color: black;
-    color: white;
+.profil-1:hover{
+    background-color: white;
     box-shadow: 6px 6px blueviolet;
 }
 
 
-img{
-    width: 200px;
-    height: 200px;
+.profil-1{
+    width: 100px;
+    height: 100px;
     padding: 10px;
-    border: 2px solid white;
-    border-radius: 50px;
-    box-shadow: 6px 6px black;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px 0px black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     
+    
+
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 40px;
+    gap: 20px;
 }
 
 .linkbox{
@@ -54,24 +58,25 @@ img{
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
     text-decoration: none;
     color: white;
-    background-color: none;
-    box-shadow: 6px 6px black;
     border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
    
 }
 
-.container{
+.linkbox i{
+    margin-left: 90px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 40px;
-    gap: 20px;
+    justify-content: flex-start;
+    
 }
+
 
 .linkbox:hover{
     color: black;
@@ -82,4 +87,5 @@ img{
 .linkbox:active{
     transform: translateY(4px);
 }
+
 
