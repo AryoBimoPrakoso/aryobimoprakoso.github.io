@@ -2,17 +2,9 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 *{
     font-family: "poppins", sans-serif;
+    background-color: black;
 
 }
-
-body{
-    background: linear-gradient(45deg,#1f1a20,#523882,pink);
-    background-size: 100% 100vh;
-    
-}
-
-
-
 .profil{
     display: flex;
     justify-content: center;
@@ -21,24 +13,26 @@ body{
     
 }
 
-.profil-1:hover{
-    background-color: white;
-    box-shadow: 6px 6px blueviolet;
+.description{
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-size:20px;
 }
+
+i{
+    background-color: transparent;
+}
+
 
 
 .profil-1{
     width: 100px;
     height: 100px;
     padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 0px 4px 8px 0px black;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    
-    
-
     
 }
 
@@ -81,11 +75,16 @@ body{
 .linkbox:hover{
     color: black;
     background-color: white;
-    box-shadow: 5px 4px blueviolet;
 }
 
 .linkbox:active{
     transform: translateY(4px);
 }
 
+.p{
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-size: 15px;
+}
 
